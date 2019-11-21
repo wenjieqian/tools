@@ -1,9 +1,9 @@
 def getWebhook(hook,secret):
     '''
-    @Desc : 基于时间戳和钉钉机器人密钥计算签名，并拼接到Webhook URL
+    @Desc   : 基于时间戳和钉钉机器人密钥计算签名，并拼接到Webhook URL
     @Author : Wenjie Qian
-    @Email : wenjieqian@foxmail.com
-    @Param :
+    @Email  : wenjieqian@foxmail.com
+    @Param  :
         hook : str 钉钉机器人原始Webhook
         secret : str 钉钉机器人密钥
     @Return :
